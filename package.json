@@ -1,0 +1,31 @@
+{
+  "name": "different-strokes-solver",
+  "version": "0.0.0",
+  "description": "solves the nyt sunday magazine Different Strokes puzzle",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/pmuellr/different-strokes-solver",
+  "main": "lib/solver.js",
+  "bin": {
+    "different-strokes-solver": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmuellr/different-strokes-solver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pmuellr/different-strokes-solver/issues"
+  },
+  "standard": {
+    "ignore": [
+      "/node_modules/",
+      "/tmp/"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}
