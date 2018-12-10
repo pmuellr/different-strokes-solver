@@ -18,7 +18,8 @@ function main () {
   try {
     solver.solve({ size, starts })
   } catch (err) {
-    errorExit(err.message)
+    if (err.isValidationError) errorExit(err.message)
+    throw err
   }
 }
 
