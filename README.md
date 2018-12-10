@@ -12,16 +12,7 @@ magazine:
 
 Eg, on the left is the puzzle, on the right is the solution.
 
-    ┼───┼───1───6───┼               ┼───****1───6****  
-    │   │   │   │   │               │   │   │   │   *
-    ┼───┼───┼───3───┼               ************3───*
-    │   │   │   │   │               │   │   │   │   *  
-    ┼───┼───┼───┼───┼               ┼───*************  
-    │   │   │   │   │               │   │   │   │   │  
-    ┼───┼───┼───┼───4               ****************4  
-    │   │   │   │   │               │   │   │   │   │  
-    ┼───┼───┼───2───┼               ┼───********2───┼  
-
+![solved puzzle](images/solved-puzzle.png)
 
 (note that whent printed, the numbers will be base 16 (hex))
 

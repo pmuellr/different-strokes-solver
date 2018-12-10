@@ -1,6 +1,6 @@
 {
   "name": "different-strokes-solver",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "solves the nyt sunday magazine Different Strokes puzzle",
   "license": "MIT",
   "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
